@@ -1,0 +1,80 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  div {
+    width: 50%;
+
+    input,
+    textarea {
+      margin: 0.5rem 0;
+      // border: 1px solid transparent;
+
+      width: 100%;
+      padding: 0.95rem;
+      border: none;
+      border-radius: 16px;
+      background-color: var(--areas-bg-color);
+      color: var(--black-invert-color);
+      resize: none;
+      font-family: var(--font-base);
+      outline: none;
+      // transition: all 0.2s ease-in-out;
+
+      -webkit-box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+
+      &::placeholder {
+        color: var(--black-invert-color);
+      }
+    }
+
+    textarea {
+      height: 170px;
+    }
+
+    button {
+      width: 160px;
+      padding: 1rem 2rem;
+      border-radius: 16px;
+      border: none;
+      color: var(--white-color);
+      background: var(--primary-color);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+      outline: none;
+      margin-top: 1rem;
+      font-family: var(--font-base);
+      transition: all 0.3s ease 0s;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      margin: 1rem 0;
+    }
+  }
+}
+
+.button-container {
+  width: 100%;
+}
+
+.error-text {
+  display: flex;
+  align-items: center;
+  color: var(--red-color);
+}
+
+.icon-color {
+  color: var(--red-color);
+}

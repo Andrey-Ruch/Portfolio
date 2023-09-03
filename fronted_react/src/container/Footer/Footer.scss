@@ -1,0 +1,191 @@
+.app__footer {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+
+  margin: 0 0 6rem 0; // 5rem 0 3rem 0
+
+  .head-text {
+    text-transform: none;
+  }
+
+  h2 {
+    color: var(--primary-color);
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.app__footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+// .app__footer-form {
+//   width: 50%;
+//   flex-direction: column;
+//   margin-top: 1rem;
+
+//   // div {
+//   //   width: 100%;
+//   //   margin: 0.75rem 0;
+//   //   // border-radius: 16px;
+//   //   // cursor: pointer;
+//   //   form {
+//   //     display: flex;
+//   //     justify-content: center;
+//   //     align-items: center;
+//   //     flex-direction: column;
+//   //     width: 100%;
+
+//   //     div {
+//   //       input,
+//   //       textarea {
+//   //         // margin: 1rem 0;
+//   //         // border: 1px solid transparent;
+
+//   //         width: 100%;
+//   //         padding: 0.95rem;
+//   //         margin: 0.5rem 0;
+//   //         border: 1px solid transparent;
+//   //         border-radius: 16px;
+//   //         background-color: var(--areas-bg-color);
+//   //         color: var(--black-invert-color);
+//   //         resize: none;
+//   //         font-family: var(--font-base);
+//   //         outline: none;
+//   //         // transition: all 0.2s ease-in-out;
+
+//   //         -webkit-box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+//   //         box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+
+//   //         &::placeholder {
+//   //           color: var(--black-invert-color);
+//   //         }
+
+//   //         &:invalid[focused="true"] {
+//   //           border: 1px solid var(--red-color);
+
+//   //           ~ {
+//   //             span {
+//   //               display: block;
+//   //             }
+//   //           }
+//   //         }
+
+//   //         // &:invalid[focused="false"] {
+//   //         //   border: 1px solid transparent;
+
+//   //         //   ~ {
+//   //         //     span {
+//   //         //       display: none;
+//   //         //     }
+//   //         //   }
+//   //         // }
+//   //       }
+
+//   //       span {
+//   //         display: none;
+//   //         color: var(--red-color);
+//   //       }
+//   //     }
+
+//   //     button {
+//   //       margin-top: 1rem;
+//   //     }
+//   //   }
+//   // }
+
+//   div {
+//     width: 100%;
+//     margin: 0.75rem 0;
+//     border-radius: 16px;
+//     cursor: pointer;
+
+//     form {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       flex-direction: column;
+//       width: 100%;
+
+//       input,
+//       textarea {
+//         width: 100%;
+//         padding: 0.95rem;
+//         border: none;
+//         border-radius: 16px;
+//         background-color: var(--areas-bg-color);
+//         color: var(--black-invert-color);
+//         resize: none;
+//         font-family: var(--font-base);
+//         outline: none;
+//         // transition: all 0.2s ease-in-out;
+
+//         -webkit-box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+//         box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+
+//         &::placeholder {
+//           color: var(--black-invert-color);
+//         }
+//       }
+
+//       textarea {
+//         height: 170px;
+//       }
+//     }
+//   }
+
+//   button {
+//     min-width: 160px;
+//     padding: 1rem 2rem;
+//     border-radius: 16px;
+//     border: none;
+//     color: var(--white-color);
+//     background: var(--primary-color);
+//     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+//     cursor: pointer;
+//     text-align: center;
+//     font-weight: 600;
+//     font-size: 0.9rem;
+//     outline: none;
+//     margin-top: 1rem;
+//     font-family: var(--font-base);
+//     transition: all 0.3s ease 0s;
+
+//     &:hover {
+//       transform: translateY(-3px);
+//     }
+//   }
+
+//   @media screen and (max-width: 768px) {
+//     width: 100%;
+//     margin: 1rem 0;
+//   }
+// }
+
+.footer-social {
+  a {
+    margin: 1rem 2rem;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media screen and (max-width: 1050px) {
+    display: flex;
+
+    a {
+      margin: 1rem;
+    }
+  }
+}
