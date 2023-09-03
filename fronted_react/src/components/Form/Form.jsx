@@ -52,10 +52,8 @@ export default function Form() {
 
           <form onSubmit={handleSubmit(onSubmit)}>
             <FormControl error className="form-control">
-              {/* <Stack spacing={2} width={400}> */}
               <input
                 type="text"
-                // label="Name"
                 placeholder="Your Name"
                 autoComplete="off"
                 //   error={!!errors.username}
@@ -80,7 +78,6 @@ export default function Form() {
 
               <input
                 // type="email"
-                // label="Email"
                 placeholder="Your Email"
                 autoComplete="false"
                 //   error={!!errors.email}
@@ -103,7 +100,6 @@ export default function Form() {
 
               <textarea
                 type="text"
-                // label="Message"
                 placeholder="Your Message"
                 autoComplete="off"
                 //   error={!!errors.message}
@@ -128,7 +124,6 @@ export default function Form() {
                   {!loading ? "Send" : "Sending..."}
                 </button>
               </div>
-              {/* </Stack> */}
             </FormControl>
           </form>
         </>
