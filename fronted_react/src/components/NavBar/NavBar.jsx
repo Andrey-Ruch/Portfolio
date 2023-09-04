@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { images } from "../../constants";
 import Social from "../Social/Social";
 import "./NavBar.scss";
 
@@ -54,7 +55,10 @@ const NavBar = () => {
     <nav className="app__navbar" ref={navbarRef}>
       <div className="app__navbar-container app__flex">
         <div className="app__navbar-logo">
-          <a href="#Home">[ae]</a>
+          {/* <a href="#Home">[ae]</a> */}
+          <a href="#Home" className="app__flex">
+            <img src={images.logo} alt="logo" href="#Home" />
+          </a>
         </div>
 
         <ul className="app__navbar-links">

@@ -37,8 +37,8 @@ form {
     }
 
     button {
-      width: 160px;
-      padding: 1rem 2rem;
+      // width: 120px;
+      padding: 1rem 1rem;
       border-radius: 16px;
       border: none;
       color: var(--white-color);
@@ -47,7 +47,7 @@ form {
       cursor: pointer;
       text-align: center;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       outline: none;
       margin-top: 1rem;
       font-family: var(--font-base);
@@ -56,6 +56,10 @@ form {
       &:hover {
         transform: translateY(-3px);
       }
+
+      // @media screen and (max-width: 500px) {
+      //   padding: 1rem 1.5rem;
+      // }
     }
 
     @media screen and (max-width: 768px) {
