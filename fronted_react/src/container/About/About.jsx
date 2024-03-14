@@ -11,15 +11,10 @@ const About = () => {
 
         <div className="app__about-description">
           <p style={{ marginTop: 10 }}>
-            I am a software developer, specialising in the app development
-            arena. For the last 3 years, I have been developing games using C++,
-            C# and Java programming languages.
-            <br /> <br /> I’m currently employed as senior software developer at
-            App Dev One Two Developers. I’m hands on in all stages of the
-            software development cycle, from planning and design to testing and
-            deployment. No two days are the same for me; my tasks may involve
-            analysing algorithms, altering code, fixing bugs, brainstorming
-            ideas or integrating new systems.
+            I am a Software engineer with a passion for problem-solving. I am a
+            curious and self-learner with a high motivation to expand my
+            knowledge base. Seeking a junior software developer position to
+            apply my skills and contribute to innovative projects.
           </p>
         </div>
 
